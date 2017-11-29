@@ -1,4 +1,4 @@
 spotify-this-song "I Want it That Way"
 my-tweet
-spotify-this-song "Rain In Blood
+spotify-this-song "Rain In Blood"
 my-tweet

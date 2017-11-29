@@ -1,8 +1,3 @@
-// TODO
-// 1. randomizer - execute the line in the file instead of console.log it
-// 2. twitter - limit the console.log to 20 tweets
-
-
 
 // Include the following packages
 var client = require("./keys.js");
@@ -85,13 +80,8 @@ if (process.argv[2].toLowerCase() === "do-what-it-says") {
         var lines = data.split("\n");
         var randomLine = lines[Math.floor(Math.random() * lines.length)];
 
-
-        console.log(randomLine);
+        console.log("node " + "liri.js " + randomLine)
 
     });
 }
 
-
-// fs.writeFile('dump.json', JSON.stringify(data, null, 2), 'utf8', err => {
-//     if (err) console.log(err);
-// });
